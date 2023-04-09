@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+#calc{
+  border: black solid 2px; 
+  display: grid;
+  grid-template-columns: repeat(4,70px);
+  background-color: black;
+  border-radius: 10px;
+}
+input{
+  grid-column: span 4;
+  height: 50px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 13px;
+}
+.del,.equ{
+  grid-column: span 2;
+}
+button{
+  background-color: rgb(48, 47, 47);
+  color: aliceblue;
+  height: 50px;
+  margin: 2px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.operation{
+background-color: rgb(10, 191, 197);
+}
